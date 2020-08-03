@@ -17,7 +17,7 @@ def initialize(name)
       end 
     end
   def self.find_or_create_by_name(name)
-    if self.all.find 
+    if self.all.find {|artist| 
     
     
     
