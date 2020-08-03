@@ -14,6 +14,7 @@ def initialize(name)
     def songs 
       Song.all.select do |song|
         
+      end 
     end
   
   
