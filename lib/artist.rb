@@ -23,7 +23,10 @@ def initialize(name)
     new_artist = Artist.new(name)
     new_artist
   end
-  end
+end
+end
+end
+
   
   
   
