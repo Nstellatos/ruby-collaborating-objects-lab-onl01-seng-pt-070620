@@ -24,7 +24,9 @@ def initialize(name)
     new_artist
   end
 end
-def print_songs self.songs.each {|song| puts song.name} end
+def print_songs 
+  self.songs.each {|song| puts song.name} 
+  end
 
 
 
