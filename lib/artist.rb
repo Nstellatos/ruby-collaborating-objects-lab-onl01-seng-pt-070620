@@ -18,7 +18,7 @@ def initialize(name)
     end
   def self.find_or_create_by_name(name)
     if self.all.find {|artist| artist.name == name}
-    {|artist| artist.name == name}
+    self.all.find {|artist| artist.name == name}
   else
     new_artist = Artist.new(name)
     new_artist
