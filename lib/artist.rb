@@ -24,6 +24,18 @@ def initialize(name)
     new_artist
   end
 end
+def print_songs
+    @songs.each do |song|
+      puts song.name
+    end
+
+
+
+
+
+
+
+
 end 
 
 
