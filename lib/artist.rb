@@ -20,7 +20,8 @@ def initialize(name)
     if self.all.find {|artist| artist.name == name}
     {|artist| artist.name == name}
   else
-    new_artist = Artist.new 
+    new_artist = Artist.new(name)
+    
     
     
     
