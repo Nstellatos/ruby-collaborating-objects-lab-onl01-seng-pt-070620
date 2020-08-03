@@ -12,7 +12,7 @@ def initialize(name)
     song.artist = self 
     end
     def songs 
-      Song.all
+      Song.all.select 
     end
   
   
