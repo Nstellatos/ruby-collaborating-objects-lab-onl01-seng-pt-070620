@@ -8,7 +8,7 @@ def initialize(name)
   def self.all
     @@all
   end
-  def add_song
+  def add_song(song)
     
 end
   
