@@ -21,10 +21,8 @@ def initialize(name)
     {|artist| artist.name == name}
   else
     new_artist = Artist.new(name)
-    
-    
-    
-    
+    new_artist
+  end
   end
   
   
