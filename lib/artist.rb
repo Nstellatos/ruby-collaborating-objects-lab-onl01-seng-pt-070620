@@ -24,6 +24,7 @@ def initialize(name)
     new_artist
   end
 end
+end 
 
 
   
